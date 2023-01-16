@@ -1,0 +1,277 @@
+.founder {
+  @extend .animate-block;
+  margin-bottom: 100px;
+
+  &__image {
+    border-radius: 50%;
+  }
+  &__citation {
+    text-align: justify;
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  &__name {
+    text-align: right;
+    font-family: 'Druk Text Wide Web', serif;
+    font-size: 2rem;
+    margin-bottom: 0;
+  }
+  &__position {
+    text-align: right;
+    font-size: 1.5rem;
+    margin: 0;
+  }
+}
+
+
+
+.about-founder {
+  @extend .animate-block;
+  padding: 100px 0;
+  background-color: #E5E5E5;
+  h2 {
+    margin-bottom: 2rem;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+}
+
+
+
+.current-businesses {
+  @extend .animate-block;
+  padding: 100px 0 50px;
+  &__item {
+    margin-bottom: 50px;
+  }
+  &__title {
+    margin-bottom: 100px;
+  }
+  &__pic-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h3 {
+      margin: 0 0 50px;
+      text-align: center;
+      color: #193644;
+      line-height: 1.5rem;
+    }
+
+    img {
+      height: 80px;
+      margin: 0 0 30px;
+    }
+  }
+  &__description {
+    font-size: 1.5rem;
+    margin: 0 0 50px;
+  }
+  &__cub-block {
+    margin: 0 0 50px;
+  }
+
+}
+
+
+
+.activity {
+  @extend .animate-block;
+  background-color: #E5E5E5;
+  padding: 100px 0;
+  &__projects {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+//.home-block-1 {
+//  margin-bottom: 100px;
+//
+//  transform: translateY(50px);
+//  opacity: 0;
+//
+//  &__show {
+//    animation: animate-block .5s ease-out forwards;
+//  }
+//}
+
+.examples-fintech-projects {
+  background-color: #E5E5E5;
+  padding: 30px 0;
+  border-radius: 10px;
+
+  p {
+    margin: 0;
+  }
+}
+
+
+
+
+.real-estate-block {
+
+  &__item {
+    position: relative;
+    display: block;
+    text-decoration: none!important;
+    background-color: #E5E5E5;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    height: 100%;
+
+    * {
+      color: #1A3745;
+    }
+
+    &-image {
+      height: 200px;
+      width: 100%;
+      border-radius: 10px 10px 0 0;
+      margin-bottom: 10px;
+      object-fit: cover;
+    }
+    &-title {
+      text-align: center;
+      font-size: 1.5rem;
+      padding: 0 20px;
+    }
+    &-description {
+      padding: 0 20px;
+    }
+    &-collapse {
+
+      padding: 0 20px;
+      //transition: 1s ease-in-out;
+      //opacity: 0;
+      //visibility: hidden;
+      //transform: translateY(-100%);
+      //display: none;
+    }
+
+    transition: box-shadow .2s ease-in-out, transform .2s ease-in-out;
+
+    &:hover {
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+      transform: scale(1.1);
+      z-index: 1111;
+
+      //.real-estate-projects-block__item-collapse {
+      //  opacity: 1;
+      //  visibility: visible;
+      //  transform: translateY(0);
+      //  display: block;
+      //}
+
+    }
+
+  }
+}
+
+
+
+
+
+
+.management-block {
+  background-color: #E5E5E5;
+  padding: 100px 0;
+  transform: translateY(50px);
+  opacity: 0;
+  &__show {
+    animation: animate-block .5s ease-out forwards;
+  }
+
+  &__item {
+    &-wrapper {
+      position: relative;
+      overflow: hidden;
+      margin-bottom: 20px;
+    }
+    &-description {
+      position: absolute;
+      background-color: rgba(255,255,255,0.8);
+      left: 0;
+      bottom: 0;
+      overflow-y: auto;
+      overflow-x: hidden;
+      max-height: 50%;
+      transform: translateY(100%);
+      transition: transform .2s ease-in-out;
+      &-btn-close {
+        position: relative;
+        cursor: pointer;
+        &::before, &::after {
+          content: '';
+          position: absolute;
+          background-color: darkred;
+          width: 15px;
+          height: 3px;
+          top: 10px;
+          right: 5px;
+        }
+        &::before {
+          transform: rotate(45deg);
+        }
+        &::after {
+          transform: rotate(-45deg);
+        }
+
+      }
+    }
+
+    &-content{
+      padding: 20px 10px 0 10px;
+    }
+
+    &.show-description {
+      .management-block__item-description {
+        transform: translateY(0);
+      }
+    }
+
+    &-image {
+      object-fit: cover;
+    }
+    &-name {
+      text-align: center;
+      font-family: 'Druk Text Wide Web', serif;
+    }
+    &-position {
+      text-align: center;
+    }
+    &-button {
+      background-color: #1A3745;
+      color: #ffffff;
+      text-align: center;
+      width: 150px;
+      border-radius: 5px;
+      line-height: 40px;
+      margin: auto;
+      cursor: pointer;
+      transition: .1s ease-in-out;
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+
+}
+
+
+
+
+
