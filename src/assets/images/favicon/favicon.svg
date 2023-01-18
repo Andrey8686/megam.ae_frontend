@@ -1,1 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="1000" height="1000"><rect width="1000" height="1000" rx="200" ry="200" fill="#ffffff"></rect><g transform="matrix(15.519214727734777,0,0,15.519214727734777,100.00002924402378,136.18303761734063)"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="51.549" height="46.886"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 51.549 46.886"><title>favicon</title><path d="M0,0H17.141V18.905c1.449-1.449,6.869-6.679,17.393-6.679h.378c12.667,0,16.637,7.5,16.637,12.855V46.886h-17.2v-16.2c0-4.537-2.332-7.813-8.193-7.813-5.8,0-9.011,3.466-9.011,8.255V46.886H0Z"></path></svg></svg></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="256" height="256"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs>
+    <style>
+      .a {
+        fill: #21232e;
+      }
+
+      .b {
+        fill: #13abac;
+      }
+    </style>
+  </defs>
+  <path class="a" d="M217.386,127.83c-1.182-21.234-2.307-42.676-3.342-63.754l14.89-2.283V51.612H196.262L143.013,166.869,90.158,51.612H54.6V61.785l13.988,2.282L61.509,191.081l-14.176,2.3v10.176H90.49V193.381l-13.8-2.286L80.7,81.262l58.235,123.543L196.079,82.753l4.3,108.333-14.9,2.286v10.181H236V193.368l-15.364-2.294C219.655,170.186,218.562,148.912,217.386,127.83Z"></path>
+  <polygon class="b" points="256 25 256 0 25 0 0 0 0 25 0 231 0 256 25 256 256 256 256 231 25 231 25 25 256 25"></polygon>
+</svg><style>@media (prefers-color-scheme: light) { :root { filter: none; } }
+</style></svg>

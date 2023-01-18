@@ -3,18 +3,21 @@
   overflow: hidden;
   display: flex;
   flex-shrink: 0;
-  height: 500px;
+  height: 100%;
   margin-bottom: 100px;
 
   h1 {
-    font-family: 'Druk Text Wide Web', serif;
+    background-color: rgba(0,0,0,0.46);
+    font-family: 'Habibi', serif;
     text-align: center;
-    color: #ffffff;
-    padding: 0;
-    font-size: 4rem;
-    margin-top: calc(10% - 50px);
+    color: #13ABAC;
+    padding: 50px 20px;
+    font-size: 7rem;
+    position: absolute;
+    top: 50%;
     opacity: 0;
     animation: animate-h1 1s ease-in-out forwards 1s;
+    transform: scale(1.2) translateY(-50%);
   }
 
   &::before, &::after {
@@ -28,7 +31,7 @@
 
 
   &::before {
-    background-image: url("/assets/images/home-banner.jpg");
+    background-image: url("/assets/images/home-banner.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
