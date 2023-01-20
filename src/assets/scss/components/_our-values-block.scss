@@ -1,0 +1,28 @@
+.our-values-block {
+  &__item {
+    height: 390px;
+    display: flex;
+    flex-direction: column;
+
+    &-image {
+      object-fit: cover;
+      height: 200px;
+      width: 100%;
+    }
+
+    &-title, &-description {
+      text-align: center;
+    }
+
+    &-title {
+      margin-bottom: 20px;
+    }
+    &-border {
+      border-left: 1px solid #14ABAC;
+      border-right: 1px solid #14ABAC;
+      border-bottom: 1px solid #14ABAC;
+      padding: 20px 10px 0;
+      flex-grow: 1;
+    }
+  }
+}
